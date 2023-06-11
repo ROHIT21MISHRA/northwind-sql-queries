@@ -1,4 +1,4 @@
-/* Find the customers who have not placed any orders */
+/* Query to Find the customers who have not placed any orders */
 
 METHOD 1 : 
 
