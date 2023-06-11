@@ -1,4 +1,4 @@
-/* Total quantity of each product sold */
+/* Query to find total quantity of each product sold */
 
 SELECT p.product_id, p.product_name, SUM(o.quantity) AS Total_Quantity_Sold
 FROM products as p
