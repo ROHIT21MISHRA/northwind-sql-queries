@@ -1,4 +1,4 @@
-/* Query to Find the customers who have spent more than $5000 in total */
+/* Query to Find the customers who have spent more than $ 5000 in total */
 
 SELECT Customers.customer_id, Customers.contact_name , SUM(order_details.quantity * order_details.unit_price) As total_expense
 FROM Customers
