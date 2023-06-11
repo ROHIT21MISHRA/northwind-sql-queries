@@ -1,4 +1,4 @@
-/* Find the total sales (Quantity*Unit_Price) for each category of products */
+/* Query to Find the total sales (Quantity*Unit_Price) for each category of products */
 
 SELECT categories.category_id, categories.category_name, SUM(order_details.quantity * order_details.unit_price) AS total_sales
 FROM categories
